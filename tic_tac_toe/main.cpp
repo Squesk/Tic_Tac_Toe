@@ -5,6 +5,11 @@
 #include <random>
 #include <cstdlib>
 
+// CLASSIC TIC TAC TOE GAME
+// EVERY GAME STARTS BY CROSS PLAYER, SO IT'S LEFT BUTTON CLICK. NEXT IS CIRCLE PLAYER, SO IT'S RIGHT BUTTON CLICK
+
+
+
 bool is_game = true;
 
 float GetRandomNumber(std::mt19937& random_generator, float from, float to) {
